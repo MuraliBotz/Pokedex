@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <h1>Pokedex</h1>
+    <div class="poke-container" id="poke-container"></div>
+
+    <!-- Modal for showing Pokemon details -->
+    <div class="modal" id="pokemon-modal">
+      <div class="modal-content">
+        <span class="close" id="close-modal">&times;</span>
+        <div class="img-container modal-img-container">
+          <img id="modal-pokemon-img" alt="Pokemon">
+        </div>
+        <div class="info modal-info">
+          <h3 class="name" id="modal-pokemon-name"></h3>
+          <small class="type">Type: <span id="modal-pokemon-type"></span></small>
+          <p>ID: <span id="modal-pokemon-id"></span></p>
+          <p>Base HP: <span id="modal-pokemon-hp"></span></p>
+
+          <div class="stats">
+            <h4>Stats:</h4>
+            <ul>
+              <li>Attack: <span id="modal-pokemon-attack"></span></li>
+              <li>Defense: <span id="modal-pokemon-defense"></span></li>
+              <li>Speed: <span id="modal-pokemon-speed"></span></li>
+            </ul>
+          </div>
+
+          <div class="abilities">
+            <h4>Abilities:</h4>
+            <ul id="modal-pokemon-abilities"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
