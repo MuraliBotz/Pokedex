@@ -67,7 +67,7 @@ h1 {
   letter-spacing: 1px;
 }
 
-/* Modal Styles */
+
 .modal {
   display: none;
   position: fixed;
@@ -90,11 +90,12 @@ h1 {
   text-align: center;
   box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
   backdrop-filter: blur(65px);
+  animation: neon-glow 10s infinite;
 }
 
 .modal-img-container img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .modal .info {
@@ -115,7 +116,7 @@ h1 {
 }
 
 
-/* Additional modal styles for new content */
+
 .modal-content .stats,
 .modal-content .abilities {
   margin-top: 15px;
@@ -134,3 +135,74 @@ h1 {
 .modal-content ul li {
   margin-bottom: 5px;
 }
+
+@keyframes neon-glow {
+    0% {
+        box-shadow: 
+                    0 0 20px 10px rgba(255, 204, 0, 0.6), 
+                    0 0 25px 15px rgba(51, 255, 255, 0.7); 
+    }
+    20% {
+        box-shadow: 0 0 15px 5px rgba(255, 51, 255, 0.8),  
+                    0 0 20px 10px rgba(255, 102, 0, 0.6), 
+                    0 0 25px 15px rgba(51, 255, 102, 0.7); 
+    }
+    40% {
+        box-shadow: 0 0 15px 5px rgba(0, 255, 255, 0.8),   
+                    0 0 20px 10px rgba(0, 128, 255, 0.6),  
+                    0 0 25px 15px rgba(255, 255, 102, 0.7); 
+    }
+    60% {
+        box-shadow: 0 0 15px 5px rgba(204, 0, 255, 0.8),   
+                    0 0 20px 10px rgba(255, 153, 51, 0.6), 
+                    0 0 25px 15px rgba(0, 204, 255, 0.7);  
+    }
+    80% {
+        box-shadow: 0 0 15px 5px rgba(255, 102, 255, 0.8), 
+                    0 0 20px 10px rgba(255, 255, 0, 0.6),  
+                    0 0 25px 15px rgba(102, 255, 255, 0.7); 
+    }
+    100% {
+        box-shadow: 0 0 15px 5px rgba(0, 255, 128, 0.8),   
+                    0 0 20px 10px rgba(153, 0, 255, 0.6),  
+                    0 0 25px 15px rgba(255, 51, 102, 0.7); 
+    }
+}
+
+
+
+.search-container {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.search-icon:hover {
+  color: cyan; 
+}
+
+#search-input {
+  width: 0;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: width 0.4s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.search-container:hover #search-input {
+  width: 200px;
+  opacity: 1;
+  visibility: visible;
+}
+
