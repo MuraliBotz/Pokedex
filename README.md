@@ -1,4 +1,4 @@
-#Pokedex
+Pokedex
 
 Get All Pokemons And Theres Details And Others Using This 
 
