@@ -139,33 +139,33 @@ h1 {
 @keyframes neon-glow {
     0% {
         box-shadow: 
-                    0 0 20px 10px rgba(255, 204, 0, 0.6), 
-                    0 0 25px 15px rgba(51, 255, 255, 0.7); 
+                    0 0 10px 5px rgba(255, 204, 0, 0.6), 
+                    0 0 10px 5px rgba(51, 255, 255, 0.7); 
     }
     20% {
-        box-shadow: 0 0 15px 5px rgba(255, 51, 255, 0.8),  
-                    0 0 20px 10px rgba(255, 102, 0, 0.6), 
-                    0 0 25px 15px rgba(51, 255, 102, 0.7); 
+        box-shadow: 0 0 7px 3px rgba(255, 51, 255, 0.8),  
+                    0 0 10px 5px rgba(255, 102, 0, 0.6), 
+                    0 0 10px 5px rgba(51, 255, 102, 0.7); 
     }
     40% {
-        box-shadow: 0 0 15px 5px rgba(0, 255, 255, 0.8),   
-                    0 0 20px 10px rgba(0, 128, 255, 0.6),  
-                    0 0 25px 15px rgba(255, 255, 102, 0.7); 
+        box-shadow: 0 0 7px 3px rgba(0, 255, 255, 0.8),   
+                    0 0 10px 5px rgba(0, 128, 255, 0.6),  
+                    0 0 10px 5px rgba(255, 255, 102, 0.7); 
     }
     60% {
-        box-shadow: 0 0 15px 5px rgba(204, 0, 255, 0.8),   
-                    0 0 20px 10px rgba(255, 153, 51, 0.6), 
-                    0 0 25px 15px rgba(0, 204, 255, 0.7);  
+        box-shadow: 0 0 7px 3px rgba(204, 0, 255, 0.8),   
+                    0 0 10px 5px rgba(255, 153, 51, 0.6), 
+                    0 0 10px 5px rgba(0, 204, 255, 0.7);  
     }
     80% {
-        box-shadow: 0 0 15px 5px rgba(255, 102, 255, 0.8), 
-                    0 0 20px 10px rgba(255, 255, 0, 0.6),  
-                    0 0 25px 15px rgba(102, 255, 255, 0.7); 
+        box-shadow: 0 0 7px 3px rgba(255, 102, 255, 0.8), 
+                    0 0 10px 5px rgba(255, 255, 0, 0.6),  
+                    0 0 10px 5px rgba(102, 255, 255, 0.7); 
     }
     100% {
-        box-shadow: 0 0 15px 5px rgba(0, 255, 128, 0.8),   
-                    0 0 20px 10px rgba(153, 0, 255, 0.6),  
-                    0 0 25px 15px rgba(255, 51, 102, 0.7); 
+        box-shadow: 0 0 7px 3px rgba(0, 255, 128, 0.8),   
+                    0 0 10px 5px rgba(153, 0, 255, 0.6),  
+                    0 0 10px 5px rgba(255, 51, 102, 0.7); 
     }
 }
 
