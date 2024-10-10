@@ -10,4 +10,11 @@ Fetch detailed information about every Pokémon, including their stats, abilitie
 
 ---
 
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- POKE API
+
 👾 _Created with care by @MuraliBotz_
